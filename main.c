@@ -6,6 +6,9 @@
 #define M_PI 3.14159265358979323846
 #endif
 
+//gcc main.c -o main -lm && ./main  
+//command to run the program
+
 void clear_stdin(void) {
     int c;
     while ((c = getchar()) != '\n' && c != EOF);
